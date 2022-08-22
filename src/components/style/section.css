@@ -1,0 +1,21 @@
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(50deg,rgb(68, 68, 197),rgb(202, 38, 202));
+    overflow: hidden;
+}
+.section_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem;
+}
+.section_img img{
+  margin-top: 1rem;
+  width: 520px;
+  height: 600px;
+  object-fit: cover;
+}
+/* .section_content{
+    margin:0 auto;
+} */

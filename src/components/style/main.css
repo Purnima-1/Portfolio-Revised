@@ -17,6 +17,7 @@
 clip-path: polygon(100% 33%, 0% 100%);
 background: linear-gradient(45deg);
   } */
+  
   .main_container{
     display: flex;
     height:90vh;
@@ -70,8 +71,10 @@ background: linear-gradient(45deg);
    text-transform: uppercase;
   }
   .main_img{
-    clip-path: circle(50% at 60% 49%);
-  }
+    clip-path: circle(45% at 50% 49%);
+    margin-right: 25px;
+    cursor: pointer;
+     }
   .main_img img{
   background: linear-gradient(45deg,red,blue);
   }
@@ -80,3 +83,63 @@ background: linear-gradient(45deg);
        display:list-item;
     }
   }
+ 
+  @media(max-width:1200px){
+    .text{
+      line-height: 35px;
+      white-space: nowrap;
+    }
+    p{
+      font-size: 14px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    .buttons .button{
+      padding:8px;
+      font-weight: normal;
+    }
+    .icons .icon{
+      font-size: 25px;
+    }
+  }
+
+  @media(max-width:800px){
+    /* .main_img img {
+ visibility: hidden;
+    } */
+    .main_content{
+      margin-left:0;
+          }
+    .main_container{
+      text-align: center;
+      flex-direction: column-reverse;
+      justify-content: center;
+     
+    }
+    .main_img img{
+      max-width: 280px;
+    }
+    .text h1{
+        font-size:23px
+         }
+         .text p{
+          font-size:11px
+           }
+           .buttons .button{
+            display:inline;
+         }
+         .icons .icon{
+          margin-left: 5px;
+          
+         }
+          
+  }
+
+
+
+
+
+
+
+
