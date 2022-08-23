@@ -8,7 +8,7 @@ const Section = () => {
         <div className="section_img">
 <img src={pic2} alt="" />
         </div>
-        <div className="section-content">
+        <div className="section_content">
             <h1>Who is Purnima?</h1>
             <p>Recent Bootcamp Graduate</p>
             <p>UI and UX Designer</p>
