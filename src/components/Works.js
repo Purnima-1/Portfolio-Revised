@@ -1,7 +1,9 @@
 import React from 'react'
 import work1 from './assets/work1.jpg'
 import work2 from './assets/work2.jpg'
-
+import work3 from './assets/work3.jpg'
+import work4 from './assets/work4.jpg'
+import './style/works.css'
 const Works = () => {
   return (
     <div className='works'>
@@ -12,6 +14,14 @@ const Works = () => {
     </div>
     <div className="cards">
         <img src={work2} alt="" />
+        <button>See Work</button>
+    </div>
+    <div className="cards">
+        <img src={work3} alt="" />
+        <button>See Work</button>
+    </div>
+    <div className="cards">
+        <img src={work4} alt="" />
         <button>See Work</button>
     </div>
 </div>
