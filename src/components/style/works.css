@@ -1,6 +1,7 @@
 .works{
     min-height: 100vh;
     width: 100%;
+    background-color: rgb(198, 206, 212);
 }
 @media(min-width:50em){
     .work_section{

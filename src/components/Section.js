@@ -10,10 +10,9 @@ const Section = () => {
         </div>
         <div className="section_content">
             <h1>Who is Purnima?</h1>
-            <p>Recent Bootcamp Graduate</p>
+            <p>Bootcamp Graduate (Scrum Master)</p>
             <p>UI and UX Designer</p>
-            <p>Scrum master of Team</p>
-            <p>An year of Experience</p>
+            <p>2 years of Experience</p>
             <p>React Developer</p>
         </div>
 

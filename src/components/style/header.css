@@ -35,15 +35,16 @@ ul{
     display: none;
     color: red;
    }
-   .closed .fa-xmark{
+   .fa-xmark{
     cursor:pointer;
-    display: none;
-    color: red;
+    visibility: hidden;
+    color: green;
    }
    @media (max-width:850px){
     .header{
         justify-content: space-between;
     }
+    
     .navbar{
         display: none;
         }

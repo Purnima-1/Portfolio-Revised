@@ -13,27 +13,28 @@ const Works = () => {
 <div className="work_section">
     <div className="cards">
         <img src={work1} alt="" />
-        <button> <a href ="https://github.com/purnima-1" target= "_blank" rel="noreferrer">See Work</a></button>
+        <button> <a href ="https://pacific-island-51855.herokuapp.com/" target= "_blank" rel="noreferrer">See Work</a></button>
     </div>
     <div className="cards">
         <img src={work2} alt="" />
-        <button><a href ="https://know-me.netlify.app/" target= "_blank" rel="noreferrer">See Work</a></button>
+        <button><a href ="https://track-your-expenses-app.netlify.app/" target= "_blank" rel="noreferrer">See Work</a></button>
     </div>
     <div className="cards">
         <img src={work3} alt="" />
-        <button>See Work</button>
+        <button><a href='https://github.com/Purnima-1/showsApp' target= "_blank" rel="noreferrer">See Work</a></button>
     </div>
     <div className="cards">
         <img src={work4} alt="" />
-        <button>See Work</button>
+        <button><a href='https://volley-scoreboard.netlify.app/' target= "_blank" rel="noreferrer" >See Work</a></button>
     </div>
     <div className="cards">
         <img src={work5} alt="" />
-        <button>See Work</button>
+        <button><a href='https://young-thicket-13354.herokuapp.com/' target= "_blank" rel="noreferrer" >See Work</a></button>
     </div>
+    
     <div className="cards">
         <img src={work6} alt="" />
-        <button>See Work</button>
+        <button><a href='https://github.com/Purnima-1/newsapp' target="_blank" rel="noreferrer" >See Work</a></button>
     </div>
 </div>
 

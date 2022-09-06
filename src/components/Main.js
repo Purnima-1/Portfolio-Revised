@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/main.css";
 import pic from './assets/pic.png'
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <div className="main">
@@ -13,12 +14,13 @@ const Main = () => {
         </div>
         <div className="icons">
           <i className="fa-brands fa-facebook icon"></i>
-          <i className="fa-brands fa-linkedin icon"></i>
+         
+          <i className="fa-brands fa-linkedin icon"><a href="https://www.linkedin.com/in/purnima-kumar/" target= "_blank" rel="noreferrer" ></a></i>
           <i className="fa-brands fa-github icon"></i>
         </div>
         <div className="buttons">
-          <button className='button'>See My Work</button>
-          <button className='button'>Hire Me</button>
+          <button className='button'><a href='https://github.com/Purnima-1' target= "_blank" rel="noreferrer" >See My Work</a></button>
+          <button className='button'><Link to = '/contact'>Hire Me</Link></button>
         </div>
       </div>
       <div className="main_img">

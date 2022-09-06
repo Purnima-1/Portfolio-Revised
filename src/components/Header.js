@@ -17,9 +17,9 @@ const showMenu = () => {
     <ul>
         <div className="closed"></div>
         <i className="fa-solid fa-xmark" onClick={showMenu}></i>
-        <li>    <Link to="/about">About</Link></li>
-          <li> <Link to="/pages">Pages</Link></li> 
-         <li>   <Link to="/portfolio">Portfolio</Link></li>
+        <li>    <Link to="/workex">Experience</Link></li>
+          {/* <li> <Link to="/pages">Pages</Link></li> 
+         <li>   <Link to="/portfolio">Portfolio</Link></li> */}
           <li>  <Link to="/contact">Contact</Link></li>
             </ul>
 </nav>
