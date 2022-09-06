@@ -10,6 +10,7 @@ import './style/works.css'
 const Works = () => {
   return (
     <div className='works'>
+        <h1 className='projects'>My Projects</h1>
 <div className="work_section">
     <div className="cards">
         <img src={work1} alt="" />
