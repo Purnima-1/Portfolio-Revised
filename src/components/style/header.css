@@ -23,8 +23,8 @@ ul{
     text-transform: uppercase;
     color:black;
    }
-   a:hover{
-    border-bottom: 3px solid red;
+   ul li:hover{
+    border-bottom: 3px solid green;
    }
    .changer{
     display:flex;

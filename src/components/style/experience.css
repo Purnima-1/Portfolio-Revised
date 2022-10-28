@@ -4,3 +4,17 @@
     background: rgb(244, 224, 227);
     
 }
+.back{
+    padding:5px 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    color:rgb(193, 111, 125);
+    background-color: rgb(73, 139, 73);
+}
+.points{
+    background-color: lightgray;
+    font-size: 20px;
+}
+li{
+    color: rgb(81, 148, 81)
+}

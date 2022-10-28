@@ -17,8 +17,10 @@ const Main = () => {
         <div className="icons">
           <i className="fa-brands fa-facebook icon"></i>
            {/* eslint-disable-next-line */}
-          <i className="fa-brands fa-linkedin icon"></i>
-          <i className="fa-brands fa-github icon"></i>
+           <a href= "https://www.linkedin.com/in/purnima-kumar/" target= "_blank" rel="noreferrer">
+          <i className="fa-brands fa-linkedin icon"></i></a>
+          <a href= "https://github.com/purnima-1" target= "_blank" rel="noreferrer">
+          <i className="fa-brands fa-github icon"></i></a>
         </div>
         <div className="buttons">
           <button className='button'><a href='https://github.com/Purnima-1' target= "_blank" rel="noreferrer" >See My Work</a></button>
